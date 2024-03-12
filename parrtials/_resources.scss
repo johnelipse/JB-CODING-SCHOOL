@@ -1,0 +1,44 @@
+.resources{
+ background-color: #056B4E;   
+ text-align: center;
+ padding: 2rem;
+ color: white;
+ h3{
+    padding-bottom: 1.5rem;
+ }
+p{
+    margin-bottom: 2rem;
+}
+a{
+    background-color: #6C757D;
+    padding: 0.5rem 1rem;
+    color: white;
+    &:hover{
+        background-color: #3a3c3f;
+        transition: 0.5s;
+    }
+}
+}
+@media(max-width:360px){
+    .resources{
+        background-color: #056B4E;   
+        text-align: center;
+        padding: 2rem 1rem;
+        color: white;
+        h3{
+           padding-bottom: 1.5rem;
+        }
+       p{
+           margin-bottom: 2rem;
+       }
+       a{
+           background-color: #6C757D;
+           padding: 0.5rem 1rem;
+           color: white;
+           &:hover{
+               background-color: #3a3c3f;
+               transition: 0.5s;
+           }
+       }
+       }   
+}
