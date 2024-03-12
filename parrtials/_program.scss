@@ -1,0 +1,122 @@
+.program{
+padding: 2rem 3rem;
+text-align: center;
+background-color: $primary-color;
+h3{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    color: blue;
+}
+p{
+    font-size: 19px;
+    color: white;
+}
+.course-details{
+margin-top: 2.5rem;
+padding-bottom: 2rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+gap: 2.5rem;
+.html-css{
+    // border: 1px solid rgb(207, 207, 207);
+    background-color: white;
+   border-radius: 0.5rem; 
+img{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.details{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    &:hover{
+        background-color: darkblue;
+        transition: 0.5s;
+    }
+}
+    .description{
+    padding: 1rem;
+    p{
+        color: black;
+        font-size: 14px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+}
+}
+}
+.check-out{
+font-size: 1.2rem;
+padding: 0.5rem 2rem;
+background-color: #6C757D;
+color: white;
+&:hover{
+background-color: #454a4e;
+transition: 0.5s;
+}
+}
+}
+@media(max-width:360px){
+    .program{
+        padding: 2rem 1rem;
+        text-align: center;
+        background-color: $primary-color;
+        h3{
+            font-size: 2rem;
+            padding-bottom: 1.5rem;
+            color: blue;
+        }
+        p{
+            font-size: 19px;
+            color: white;
+        }
+        .course-details{
+        margin-top: 2.5rem;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        gap: 2.5rem;
+        .html-css{
+            // border: 1px solid rgb(207, 207, 207);
+            background-color: white;
+           border-radius: 0.5rem; 
+        img{
+            width: 100%;
+            border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+        }
+        .details{
+            background-color: blue;
+            color: white;
+            padding: 0.5rem 2rem;
+            font-size: 1rem;
+            &:hover{
+                background-color: darkblue;
+                transition: 0.5s;
+            }
+        }
+            .description{
+            padding: 1rem;
+            p{
+                color: black;
+                font-size: 14px;
+                padding-top: 1rem;
+                padding-bottom: 2rem;
+            }
+        }
+        }
+        }
+        .check-out{
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        background-color: #6C757D;
+        color: white;
+        &:hover{
+        background-color: #454a4e;
+        transition: 0.5s;
+        }
+        }
+        }  
+}
