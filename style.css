@@ -643,6 +643,9 @@ footer {
   padding: 2rem;
   text-align: center;
 }
+.course-datails .duration p {
+  padding-top: 1rem;
+}
 .course-datails a {
   background-color: #06B6D4;
   color: white;
