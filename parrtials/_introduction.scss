@@ -1,0 +1,42 @@
+.introduction{
+ padding: 4rem 0rem; 
+ background: linear-gradient(to right,rgba(17, 75, 92, 0.637),rgba(17, 75, 92, 0.555)),url(/IMAGES/html.jpg);  
+ background-repeat: no-repeat;
+ h3{
+    font-size: 2rem;
+    color: white;
+ }
+.course-details{
+width: 20%;
+}
+p{  
+    color: white;
+    padding: 1rem 2rem;
+    background-color: #1E293B;
+a{
+    color: #BE3245;
+}
+}
+}
+@media(max-width:360px){
+    .introduction{
+        padding: 3rem 1rem; 
+        background: linear-gradient(to right,rgba(17, 75, 92, 0.637),rgba(17, 75, 92, 0.555)),url(/IMAGES/html.jpg);  
+        background-repeat: no-repeat;
+        h3{
+           font-size: 2.3rem;
+           color: white;
+        }
+       .course-details{
+       width: 95%;
+       }
+       p{  
+           color: white;
+           padding: 1rem 2rem;
+           background-color: #1E293B;
+       a{
+           color: #BE3245;
+       }
+       }
+       }   
+}
